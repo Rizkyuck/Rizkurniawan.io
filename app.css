@@ -1,0 +1,167 @@
+img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.2);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 16, 24);
+    color: #fff;
+    overflow-y: auto ;
+}
+header {
+    background-color: rgb(22, 40, 65);
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+nav ul li {
+    display: inline-block;
+    padding: 0;
+    margin-right: 0 15px;
+}
+nav ul li {
+    margin: 10px ;    /* ini untuk perbedaan */
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+}
+.intro {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #081f30;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.intro h1 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-Contact h1{
+    font-size: 40px;
+    margin-bottom: 20px; /* ini */
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.short-intro{
+    color: rgb(38, 255, 0);
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: rgb(3, 129, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.cta-button:hover{
+    background-color: #fff;
+    transition-duration: .5s ease-in-out;
+    transition-delay: initial;
+}
+.portofolio-link {
+    position:fixed;
+    font-size:small;
+    font-weight: 19px;
+    top: 10px;
+    left: 10px;
+    font-size: 13px;
+    text-size-adjust: 12px;
+    color: rgb(0, 38, 255);
+    text-decoration: none; 
+}
+.profile-image {
+    display: flex;
+    object-fit:initial;
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+    vertical-align:super;
+    margin-left: 70px;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+.div-Contact{
+    text-align: center;
+    padding: 20px;
+}
+.div-Contact h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.div-Contact a img{
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+.div-contact{
+    background-color: #081f30;
+    display: inline-block;
+    text-align:center;
+}
+.div-Contact p{
+    margin: 5px ;
+    font-size: 15px;
+    color:#ffffff;
+}
+.Achivement{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(6, 30, 58);
+}
+.Achivement img{
+    width:150px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 9px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.li-navbar:hover{
+    background-color:rgb(64, 87, 233);
+    transition-duration: .4s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 12px;
+}
